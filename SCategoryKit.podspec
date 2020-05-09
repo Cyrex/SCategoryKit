@@ -42,5 +42,21 @@ a collection of useful Objective-C Categories extending iOS Frameworks.
       uikit.subspec 'UIPageViewController' do |pageViewController|
           pageViewController.source_files = 'SCategoryKit/UIKit/UIPageViewController/*.{h,m}'
       end
+      
+      uikit.subspec 'UIImage' do |image|
+          image.source_files = 'SCategoryKit/UIKit/UIImage/*.{h,m}'
+      end
+      
+      uikit.subspec 'UIButton' do |button|
+          button.source_files = 'SCategoryKit/UIKit/UIButton/*.{h,m}'
+      end
+      
+      uikit.subspec 'UIColor' do |color|
+          color.source_files = 'SCategoryKit/UIKit/UIColor/*.{h,m}'
+      end
+      
+      uikit.subspec 'UIView' do |view|
+          view.source_files = 'SCategoryKit/UIKit/UIView/*.{h,m}'
+      end
   end
 end

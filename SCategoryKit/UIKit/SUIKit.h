@@ -13,6 +13,14 @@
 
 #if __has_include(<SCategoryKit/SUIKit.h>)
     #import <SCategoryKit/UIPageViewController+SCategoryKit.h>
+    #import <SCategoryKit/UIImage+SCategoryKit.h>
+    #import <SCategoryKit/UIButton+SCategoryKit.h>
+    #import <SCategoryKit/UIColor+SCategoryKit.h>
+    #import <SCategoryKit/UIView+SCategoryKit.h>
 #else
     #import "UIPageViewController+SCategoryKit.h"
+    #import "UIImage+SCategoryKit.h"
+    #import "UIButton+SCategoryKit.h"
+    #import "UIColor+SCategoryKit.h"
+    #import "UIView+SCategoryKit.h"
 #endif
