@@ -14,9 +14,9 @@
 #if __has_include(<SCategoryKit/UIImage+SCategoryKit.h>)
     #import <SCategoryKit/UIImage+SColor.h>
     #import <SCategoryKit/UIImage+SScale.h>
-    #import <SCategoryKit/UIImage+SClip.h>
+    #import <SCategoryKit/UIImage+SCut.h>
 #else
     #import "UIImage+SColor.h"
     #import "UIImage+SScale.h"
-    #import "UIImage+SClip.h"
+    #import "UIImage+SCut.h"
 #endif

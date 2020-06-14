@@ -1,7 +1,7 @@
 //
 //  Copyright © 2020 ZhiweiSun. All rights reserved.
 //
-//  File name: UIImage+SClip.h
+//  File name: UIImage+SCut.h
 //  Author:    Zhiwei Sun @Cyrex
 //  E-mail:    szwathub@gmail.com
 //
@@ -15,9 +15,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (SClip)
+@interface UIImage (SCut)
 
-+ (UIImage *)s_clipImage:(UIImage *)image withRect:(CGRect)rect;
++ (UIImage *)s_cutImage:(UIImage *)image rect:(CGRect)rect;
 
 @end
 

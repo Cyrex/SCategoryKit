@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		362946B924964EA60063BE0E /* UIImage+SCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 362946B724964EA60063BE0E /* UIImage+SCut.m */; };
+		362946BA24964EA60063BE0E /* UIImage+SCut.h in Headers */ = {isa = PBXBuildFile; fileRef = 362946B824964EA60063BE0E /* UIImage+SCut.h */; };
 		36393878238FCA3C006C855E /* UIPageViewController+SGestureConflict.h in Headers */ = {isa = PBXBuildFile; fileRef = 36393876238FCA3C006C855E /* UIPageViewController+SGestureConflict.h */; };
 		36393879238FCA3C006C855E /* UIPageViewController+SGestureConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = 36393877238FCA3C006C855E /* UIPageViewController+SGestureConflict.m */; };
 		368175A023D0792A00DC6FBA /* UIView+SRenderImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3681759E23D0792A00DC6FBA /* UIView+SRenderImage.h */; };
@@ -29,8 +31,6 @@
 		368175CB23D1D00D00DC6FBA /* UIButton+SExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 368175C923D1D00D00DC6FBA /* UIButton+SExpand.m */; };
 		36CB6F4423F17E5D007ED007 /* UIImage+SScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CB6F4223F17E5D007ED007 /* UIImage+SScale.h */; };
 		36CB6F4523F17E5D007ED007 /* UIImage+SScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB6F4323F17E5D007ED007 /* UIImage+SScale.m */; };
-		36CB6F4823F18F06007ED007 /* UIImage+SClip.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CB6F4623F18F06007ED007 /* UIImage+SClip.h */; };
-		36CB6F4923F18F06007ED007 /* UIImage+SClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB6F4723F18F06007ED007 /* UIImage+SClip.m */; };
 		36E0401123C497130012CC6C /* UIColor+SHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E0400F23C497130012CC6C /* UIColor+SHex.h */; };
 		36E0401223C497130012CC6C /* UIColor+SHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0401023C497130012CC6C /* UIColor+SHex.m */; };
 		36F155D020DD0FAB002436F4 /* SCategoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F155CE20DD0FAB002436F4 /* SCategoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +55,8 @@
 /* Begin PBXFileReference section */
 		1F76E985B18D4D819FD8449B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3601B55B200C90960011CCAE /* SCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362946B724964EA60063BE0E /* UIImage+SCut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCut.m"; sourceTree = "<group>"; };
+		362946B824964EA60063BE0E /* UIImage+SCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCut.h"; sourceTree = "<group>"; };
 		36393873238FC773006C855E /* SUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUIKit.h; sourceTree = "<group>"; };
 		36393875238FC7CF006C855E /* UIPageViewController+SCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+SCategoryKit.h"; sourceTree = "<group>"; };
 		36393876238FCA3C006C855E /* UIPageViewController+SGestureConflict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+SGestureConflict.h"; sourceTree = "<group>"; };
@@ -66,8 +68,6 @@
 		368175C923D1D00D00DC6FBA /* UIButton+SExpand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SExpand.m"; sourceTree = "<group>"; };
 		36CB6F4223F17E5D007ED007 /* UIImage+SScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SScale.h"; sourceTree = "<group>"; };
 		36CB6F4323F17E5D007ED007 /* UIImage+SScale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SScale.m"; sourceTree = "<group>"; };
-		36CB6F4623F18F06007ED007 /* UIImage+SClip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SClip.h"; sourceTree = "<group>"; };
-		36CB6F4723F18F06007ED007 /* UIImage+SClip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SClip.m"; sourceTree = "<group>"; };
 		36E0400F23C497130012CC6C /* UIColor+SHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SHex.h"; sourceTree = "<group>"; };
 		36E0401023C497130012CC6C /* UIColor+SHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SHex.m"; sourceTree = "<group>"; };
 		36E0401323C497290012CC6C /* UIColor+SCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SCategoryKit.h"; sourceTree = "<group>"; };
@@ -204,8 +204,8 @@
 				36F25E3D23BF418F0046549D /* UIImage+SColor.m */,
 				36CB6F4223F17E5D007ED007 /* UIImage+SScale.h */,
 				36CB6F4323F17E5D007ED007 /* UIImage+SScale.m */,
-				36CB6F4623F18F06007ED007 /* UIImage+SClip.h */,
-				36CB6F4723F18F06007ED007 /* UIImage+SClip.m */,
+				362946B824964EA60063BE0E /* UIImage+SCut.h */,
+				362946B724964EA60063BE0E /* UIImage+SCut.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -233,10 +233,10 @@
 				368175CA23D1D00D00DC6FBA /* UIButton+SExpand.h in Headers */,
 				36F25E3E23BF418F0046549D /* UIImage+SColor.h in Headers */,
 				36F25E8E23C344FF0046549D /* UIButton+SGradientLayer.h in Headers */,
-				36CB6F4823F18F06007ED007 /* UIImage+SClip.h in Headers */,
 				368175A023D0792A00DC6FBA /* UIView+SRenderImage.h in Headers */,
 				36CB6F4423F17E5D007ED007 /* UIImage+SScale.h in Headers */,
 				36F155D020DD0FAB002436F4 /* SCategoryKit.h in Headers */,
+				362946BA24964EA60063BE0E /* UIImage+SCut.h in Headers */,
 				36E0401123C497130012CC6C /* UIColor+SHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,10 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				36393879238FCA3C006C855E /* UIPageViewController+SGestureConflict.m in Sources */,
-				36CB6F4923F18F06007ED007 /* UIImage+SClip.m in Sources */,
 				368175A123D0792A00DC6FBA /* UIView+SRenderImage.m in Sources */,
 				36E0401223C497130012CC6C /* UIColor+SHex.m in Sources */,
 				368175CB23D1D00D00DC6FBA /* UIButton+SExpand.m in Sources */,
+				362946B924964EA60063BE0E /* UIImage+SCut.m in Sources */,
 				36F25E8F23C344FF0046549D /* UIButton+SGradientLayer.m in Sources */,
 				36CB6F4523F17E5D007ED007 /* UIImage+SScale.m in Sources */,
 				36F25E3F23BF418F0046549D /* UIImage+SColor.m in Sources */,
