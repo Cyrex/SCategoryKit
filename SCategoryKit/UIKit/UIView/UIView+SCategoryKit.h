@@ -13,6 +13,8 @@
 
 #if __has_include(<SCategoryKit/UIImage+SCategoryKit.h>)
     #import <SCategoryKit/UIView+SRenderImage.h>
+    #import <SCategoryKit/UIView+SInput.h>
 #else
     #import "UIView+SRenderImage.h"
+    #import "UIView+SInput.h"
 #endif
