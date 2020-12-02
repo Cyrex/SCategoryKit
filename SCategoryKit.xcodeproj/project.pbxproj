@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		362946B924964EA60063BE0E /* UIImage+SCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 362946B724964EA60063BE0E /* UIImage+SCut.m */; };
 		362946BA24964EA60063BE0E /* UIImage+SCut.h in Headers */ = {isa = PBXBuildFile; fileRef = 362946B824964EA60063BE0E /* UIImage+SCut.h */; };
+		363765DA2574F68700ADB8B7 /* NSBundle+SResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 363765D82574F68700ADB8B7 /* NSBundle+SResource.h */; };
+		363765DB2574F68700ADB8B7 /* NSBundle+SResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 363765D92574F68700ADB8B7 /* NSBundle+SResource.m */; };
 		36393878238FCA3C006C855E /* UIPageViewController+SGestureConflict.h in Headers */ = {isa = PBXBuildFile; fileRef = 36393876238FCA3C006C855E /* UIPageViewController+SGestureConflict.h */; };
 		36393879238FCA3C006C855E /* UIPageViewController+SGestureConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = 36393877238FCA3C006C855E /* UIPageViewController+SGestureConflict.m */; };
 		368175A023D0792A00DC6FBA /* UIView+SRenderImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3681759E23D0792A00DC6FBA /* UIView+SRenderImage.h */; };
@@ -59,6 +61,10 @@
 		3601B55B200C90960011CCAE /* SCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		362946B724964EA60063BE0E /* UIImage+SCut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SCut.m"; sourceTree = "<group>"; };
 		362946B824964EA60063BE0E /* UIImage+SCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SCut.h"; sourceTree = "<group>"; };
+		363765D52574F5BA00ADB8B7 /* SFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFoundation.h; sourceTree = "<group>"; };
+		363765D72574F61A00ADB8B7 /* NSBundle+SCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SCategoryKit.h"; sourceTree = "<group>"; };
+		363765D82574F68700ADB8B7 /* NSBundle+SResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SResource.h"; sourceTree = "<group>"; };
+		363765D92574F68700ADB8B7 /* NSBundle+SResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SResource.m"; sourceTree = "<group>"; };
 		36393873238FC773006C855E /* SUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUIKit.h; sourceTree = "<group>"; };
 		36393875238FC7CF006C855E /* UIPageViewController+SCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+SCategoryKit.h"; sourceTree = "<group>"; };
 		36393876238FCA3C006C855E /* UIPageViewController+SGestureConflict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+SGestureConflict.h"; sourceTree = "<group>"; };
@@ -128,6 +134,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		363765D42574F5A600ADB8B7 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				363765D52574F5BA00ADB8B7 /* SFoundation.h */,
+				363765D62574F5DF00ADB8B7 /* NSBundle */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		363765D62574F5DF00ADB8B7 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				363765D72574F61A00ADB8B7 /* NSBundle+SCategoryKit.h */,
+				363765D82574F68700ADB8B7 /* NSBundle+SResource.h */,
+				363765D92574F68700ADB8B7 /* NSBundle+SResource.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
 		36393872238FC74E006C855E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				36F155CE20DD0FAB002436F4 /* SCategoryKit.h */,
-				36393872238FC74E006C855E /* UIKit */,
 				36F155CF20DD0FAB002436F4 /* Info.plist */,
+				363765D42574F5A600ADB8B7 /* Foundation */,
+				36393872238FC74E006C855E /* UIKit */,
 			);
 			path = SCategoryKit;
 			sourceTree = "<group>";
@@ -244,6 +270,7 @@
 				36F155D020DD0FAB002436F4 /* SCategoryKit.h in Headers */,
 				362946BA24964EA60063BE0E /* UIImage+SCut.h in Headers */,
 				369A99A5249CB3F100437383 /* UIView+SInput.h in Headers */,
+				363765DA2574F68700ADB8B7 /* NSBundle+SResource.h in Headers */,
 				36E0401123C497130012CC6C /* UIColor+SHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363765DB2574F68700ADB8B7 /* NSBundle+SResource.m in Sources */,
 				369A99A6249CB3F100437383 /* UIView+SInput.m in Sources */,
 				36393879238FCA3C006C855E /* UIPageViewController+SGestureConflict.m in Sources */,
 				368175A123D0792A00DC6FBA /* UIView+SRenderImage.m in Sources */,

@@ -22,6 +22,8 @@ FOUNDATION_EXPORT const unsigned char SCategoryKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SCategoryKit/PublicHeader.h>
 #if __has_include(<SCategoryKit/SCategoryKit.h>)
     #import <SCategoryKit/SUIKit.h>
+    #import <SCategoryKit/SFoundation.h>
 #else
     #import "SUIKit.h"
+    #import "SFoundation.h"
 #endif

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCategoryKit'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'a collection of useful Objective-C Categories.'
 
 # This description is used to generate tags and improve search results.
@@ -57,6 +57,17 @@ a collection of useful Objective-C Categories extending iOS Frameworks.
       
       uikit.subspec 'UIView' do |view|
           view.source_files = 'SCategoryKit/UIKit/UIView/*.{h,m}'
+      end
+  end
+  
+  # Foundation
+  s.subspec 'Foundation' do |foundation|
+      foundation.public_header_files = 'SCategoryKit/Foundation/SFoundation.h'
+      foundation.source_files = 'SCategoryKit/Foundation/SFoundation.h'
+      foundation.frameworks = 'Foundation'
+      
+      foundation.subspec 'NSBundle' do |bundle|
+          bundle.source_files = 'SCategoryKit/Foundation/NSBundle/*.{h,m}'
       end
   end
 end
