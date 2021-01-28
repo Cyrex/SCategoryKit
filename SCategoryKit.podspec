@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCategoryKit'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'a collection of useful Objective-C Categories.'
 
 # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ a collection of useful Objective-C Categories extending iOS Frameworks.
   s.homepage         = 'https://github.com/Cyrex/SCategoryKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Cyrex' => 'szwathub@gmail.com' }
-  s.source           = { :git => 'https://github.com/Cyrex/SCategoryKit.git', :tag => s.version.to_s }
+  s.author           = { 'szwathub' => 'szwathub@gmail.com' }
+  s.source           = { :git => 'https://github.com/szwathub/SCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
