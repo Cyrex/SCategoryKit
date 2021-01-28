@@ -17,9 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (SRenderImage)
 
-- (UIImage *)s_renderImage;
+- (UIImage *)s_renderImage:(BOOL)opaque;
 
-- (UIImage *)s_renderImageWithFrame:(CGRect)frame;
+- (UIImage *)s_renderImage:(BOOL)opaque frame:(CGRect)frame;
 
 @end
 

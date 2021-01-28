@@ -14,8 +14,8 @@
 #import "UIView+SRenderImage.h"
 
 @implementation UIView (SRenderImage)
-- (UIImage *)s_renderImage {
-    UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, [UIScreen mainScreen].scale);
+- (UIImage *)s_renderImage:(BOOL)opaque {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, opaque, [UIScreen mainScreen].scale);
     [self.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
@@ -23,8 +23,8 @@
     return viewImage;
 }
 
-- (UIImage *)s_renderImageWithFrame:(CGRect)frame {
-    UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, [UIScreen mainScreen].scale);
+- (UIImage *)s_renderImage:(BOOL)opaque frame:(CGRect)frame {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, opaque, [UIScreen mainScreen].scale);
     [self.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
